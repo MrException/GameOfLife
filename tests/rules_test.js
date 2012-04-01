@@ -1,0 +1,3 @@
+module('GOL.rules');
+
+test('');

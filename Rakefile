@@ -8,11 +8,7 @@ task :test, [:suite] do |t, args|
 
   suites = {
     :default => ["package=all"],
-    :all => ["package=all",
-              "package=all&jquery=1.6.4&nojshint=true",
-              "package=all&extendprototypes=true&nojshint=true",
-              "package=all&extendprototypes=true&jquery=1.6.4&nojshint=true",
-              "package=all&dist=build&nojshint=true"]
+    :all => ["package=all"]
   }
 
   if ENV['TEST']
